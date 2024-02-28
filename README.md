@@ -14,20 +14,20 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repository
 
-git clone https://github.com/Code-Guste/snake-game.git
+`git clone https://github.com/Code-Guste/snake-game.git`
 
 2. Navigate to the project directory
 
-cd snake-game
+`cd snake-game`
 
 3. Install YARN packages
 
-yarn install
+`yarn install`
 
 ### Running the Development Server
 
 To start the development server:
 
-yarn run dev
+`yarn run dev`
 
-This will start the local development server at `http://localhost:3000`. Open your browser and navigate to this address to view the game.
+This will start the local development server at [http://localhost:3000](http://localhost:3000). Open this address to view the game in the browser.
