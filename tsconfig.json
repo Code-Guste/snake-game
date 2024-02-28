@@ -1,0 +1,33 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsxImportSource": "@emotion/react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@Pages/*": ["src/pages/*"],
+      "@Components/*": ["src/components/*"],
+      "@Config/*": ["src/config/*"],
+      "@App/*": ["src/app/*"],
+      "@Hooks/*": ["src/hooks/*"]
+    }
+  },
+  "include": ["src", "scripts", "vite.config.mts"]
+}
